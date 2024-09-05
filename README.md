@@ -26,7 +26,7 @@ Este projeto é um teste técnico para a vaga de Front-End na Viveo. O objetivo 
 
 1. **Clonar o Repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/RodrigoGomesDev/viveo.git
+   git clone https://github.com/RodrigoGomesDev/viveo.git
 
    cd viveo
    ```
