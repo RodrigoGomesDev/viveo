@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Sobre o Projeto
 
-## Getting Started
+Este projeto é um teste técnico para a vaga de Front-End na Viveo. O objetivo aqui é mostrar minhas habilidades em criar interfaces responsivas e interativas usando React, Next.js, Tailwind CSS e React MUI. Além disso, incluí a integração com uma API open-source para demonstrar como eu trabalho com dados externos.
 
-First, run the development server:
+## Tecnologias Usadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React**: Biblioteca para construir interfaces de usuário.
+- **Next.js**: Framework para renderização do lado do servidor e páginas estáticas.
+- **Tailwind CSS**: Framework CSS para estilização e design responsivo.
+- **React MUI (Material-UI)**: Biblioteca de componentes com design Material.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## O Que Foi Feito
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Autenticação**:
+   - Criei telas responsivas usando React e Tailwind CSS.
+   - Usei React MUI para os componentes e estilização, garantindo um visual profissional e consistente.
+   - Também com o React MUI, fiz uma componentização com o estilo *Atomic Design*, para manter a estrutura do projeto limpa.
+   - Adicionei validação básica dos campos e feedback para erros.
+     
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Integração com API**:
+   - Conectei com a API [RandomUser.me](https://randomuser.me/api/) para gerar dados de usuários fictícios.
+   - Implementação de chamadas assíncronas para buscar e mostrar dados no frontend.
 
-## Learn More
+## Como Rodar o Projeto
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clonar o Repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/RodrigoGomesDev/viveo.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   cd viveo
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Instalar dependências**:
+   ```bash
+   
+   yarn add / npm install
+   ```
 
-## Deploy on Vercel
+3. **Rodar projeto**:
+   ```bash
+   
+   yarn add / npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Estrutura do Projeto (dentro do src)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **/app**: Páginas principais.
+- **/components**: Componentes reutilizáveis, como formulários e botões, com MUI (formatação *Atomic Design*).
+- **/styles**: Arquivos de configuração do Tailwind CSS.
+- **/assets**: Arquivos de Imagens/SVG's.
+
+## O Que Foi Avaliado
+
+- **Código Limpo e Legível**: Tentei manter o código claro e bem organizado.
+- **Layout e Usabilidade**: Foquei em uma experiência de usuário suave e design responsivo.
+- **Melhores Práticas**: Segui boas práticas de programação, incluindo a separação de responsabilidades e reutilização de componentes.
+
+
